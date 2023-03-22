@@ -1,4 +1,53 @@
 @font-face {
     font-family: 'Inter-Black';
-    src: url('Assets/Fonts/Inter-Black.woff2') format('woff2');
+    src: url('Assets/Fonts/Inter-Black.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-Black.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-Bold';
+    src: url('Assets/Fonts/Inter-Bold.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-Bold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraBold';
+    src: url('Assets/Fonts/Inter-ExtraBold.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-ExtraBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-ExtraLight';
+    src: url('Assets/Fonts/Inter-ExtraLight.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-ExtraLight.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-Light';
+    src: url('Assets/Fonts/Inter-Light.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-Light.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-Medium';
+    src: url('Assets/Fonts/Inter-Medium.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-Medium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-Regular';
+    src: url('Assets/Fonts/Inter-Regular.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-Regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-SemiBold';
+    src: url('Assets/Fonts/Inter-SemiBold.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-SemiBold.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Inter-Thin';
+    src: url('Assets/Fonts/Inter-Thin.woff2') format('woff2'),
+    url('Assets/Fonts/Inter-Thin.woff') format('woff');
 }
