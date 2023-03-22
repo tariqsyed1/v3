@@ -8,7 +8,6 @@ function App() {
       <div>
         <img src={Logo} alt=''/>
         <p>under construction</p>
-        <p>2023</p>
       </div>
     </div>
   );
