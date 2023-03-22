@@ -1,10 +1,15 @@
 import './App.css';
+import './Fonts.css';
+import Logo from './Assets/logo.svg';
 
 function App() {
   return (
     <div className="App">
-      <h1>hi im tariq</h1>
-      <h2>software engineer</h2>
+      <div>
+        <img src={Logo} alt=''/>
+        <p>under construction</p>
+        <p>2023</p>
+      </div>
     </div>
   );
 }

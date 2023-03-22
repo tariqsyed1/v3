@@ -1,6 +1,10 @@
 body {
   margin: 0;
-  font-family: Inter-Black;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Inter-Light;
+  font-size: 24px;
+}
+
+h1 {
+  font-family: Inter-Regular;
+  font-size: 150px;
 }
