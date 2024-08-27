@@ -12,3 +12,20 @@ body {
   justify-content: center;
   text-align: center;
 }
+
+.header {
+  font-family: Inter-Bold;
+  font-size: 36px;
+}
+
+.subheader {
+  font-family: Inter-ExtraBold;
+  font-size: 24px;
+}
+
+.body {
+  font-family: Inter-Regular;
+  font-size: 20px;
+}
+
+/* Add a fade in when the website first loads */

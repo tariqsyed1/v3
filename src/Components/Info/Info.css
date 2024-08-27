@@ -1,0 +1,14 @@
+.info {
+    display: flex; /* flexbox layout */
+    flex-direction: row; /* horizontal layout */
+  }
+  
+  .info-left {
+    width: 50%; /* take up 50% of the container width */
+    padding: 20px; /* add some padding for spacing */
+  }
+  
+  .info-right {
+    width: 50%; /* take up 50% of the container width */
+    padding: 20px; /* add some padding for spacing */
+  }
