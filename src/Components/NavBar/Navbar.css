@@ -6,7 +6,6 @@
     display: flex; /* center align */
     justify-content: center;
     align-items: center;
-    background-color: #000; /* optional: set background color */
     font-size: 20px;
   }
   

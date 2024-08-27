@@ -4,11 +4,11 @@
   }
   
   .info-left {
-    width: 50%; /* take up 50% of the container width */
+    width: 33%; /* take up 50% of the container width */
     padding: 20px; /* add some padding for spacing */
   }
   
   .info-right {
-    width: 50%; /* take up 50% of the container width */
+    width: 66%; /* take up 50% of the container width */
     padding: 20px; /* add some padding for spacing */
   }

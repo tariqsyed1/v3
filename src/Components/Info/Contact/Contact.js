@@ -16,10 +16,9 @@ const resume = 'https:/google.ca';
 const Contact = () => {
     return (
         <div className="Contact">
-            <img src={tariq} alt='' style={{'width': '50%'}}/>
-            <div className='header'>tariq syed</div>
-            <div className='subheading'>software engineer</div>
-            <div className='body'><a href="mailto:hello@tariqsyed.dev">hello@tariqsyed.dev</a></div>
+            <img src={tariq} alt='' style={{'width': '100%'}}/>
+            <div className='header'>Tariq Syed</div>
+            <div className='subheading'>Software Engineer | <a href="hello@tariqsyed.dev">hello@tariqsyed.dev</a></div>
             <div id="Icons">
                 <a href="https://www.github.com/tariqsyed1/" target="_blank" rel="noreferrer" className="social"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/tariqs1" target="_blank" rel="noreferrer" className="social"><LinkedInIcon /></a>
