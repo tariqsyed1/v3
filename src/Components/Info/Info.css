@@ -5,10 +5,11 @@
   
   .info-left {
     width: 33%; /* take up 50% of the container width */
-    padding: 20px; /* add some padding for spacing */
+    padding: 10%; /* add some padding for spacing */
+    align-items: right;
   }
   
   .info-right {
     width: 66%; /* take up 50% of the container width */
-    padding: 20px; /* add some padding for spacing */
+    padding: 10%; /* add some padding for spacing */
   }
