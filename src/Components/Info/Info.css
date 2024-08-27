@@ -1,8 +1,14 @@
 .info {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: flex; /* flexbox layout */
   flex-direction: row; /* horizontal layout */
   justify-content: center;
   align-items: center;
+  height: 70vh;
+  width: 75%;
 }
 
 .info-left {
