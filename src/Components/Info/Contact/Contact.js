@@ -1,10 +1,10 @@
 import React from 'react';
+import './Contact.css'
 
 // Assets
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DescriptionIcon from '@mui/icons-material/Description';
-import Logo from '../../../Assets/logo.svg';
 import tariq from '../../../Assets/Image/tariq.png'
 
 const location = 'Toronto, Canada';
@@ -20,9 +20,6 @@ const Contact = () => {
             <div className='header'>tariq syed</div>
             <div className='subheading'>software engineer</div>
             <div className='body'><a href="mailto:hello@tariqsyed.dev">hello@tariqsyed.dev</a></div>
-
-
-
             <div id="Icons">
                 <a href="https://www.github.com/tariqsyed1/" target="_blank" rel="noreferrer" className="social"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/tariqs1" target="_blank" rel="noreferrer" className="social"><LinkedInIcon /></a>
