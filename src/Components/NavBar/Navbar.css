@@ -14,7 +14,6 @@
   }
 
   .navbar-links {
-    color: #FCFBFC; /* white */
     text-decoration: none; /* no text decoration */
   }
   
@@ -25,6 +24,5 @@
   }
   
   .navbar-links a.active {
-    text-decoration: underline; /* underline active link */
-    font-weight: bold; /* bold active link */
+    font-family: Inter-SemiBold; /* bold active link */
   }

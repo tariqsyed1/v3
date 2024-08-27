@@ -24,8 +24,14 @@ body {
 }
 
 .body {
-  font-family: Inter-Regular;
+  font-family: Inter-Light;
   font-size: 20px;
 }
 
+.link {
+  text-decoration: none; /* no text decoration */
+
+}
+
 /* Add a fade in when the website first loads */
+/* Add a swipe animation when swiping between the two components */
