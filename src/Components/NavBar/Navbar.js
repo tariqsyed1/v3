@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <div className="navbar">
             <div className="navbar-logo">
-                <NavLink to="/"><img src={Logo} alt='' style={{'width': '15%'}}/></NavLink>
+                <NavLink to="/"><img src={Logo} alt=''/></NavLink>
             </div>
             <div className="navbar-links">
                 <NavLink to="/" activeClassName="active">Info</NavLink>
