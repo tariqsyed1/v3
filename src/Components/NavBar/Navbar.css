@@ -1,0 +1,30 @@
+.navbar {
+    position: fixed; /* stick to the top of the page */
+    top: 30px; /* add 20px of space between top of page and navbar */
+    left: 0;
+    width: 75%;
+    display: flex; /* center align */
+    justify-content: center;
+    align-items: center;
+    background-color: #000; /* optional: set background color */
+  }
+  
+  .navbar-logo {
+    margin-right: auto; /* left align logo */
+  }
+
+  .navbar-links {
+    color: #FCFBFC; /* white */
+    text-decoration: none; /* no text decoration */
+  }
+  
+  .navbar-links a {
+    color: #FCFBFC; /* white */
+    text-decoration: none; /* no text decoration */
+    margin-right: 20px; /* add 20px of space between links */
+  }
+  
+  .navbar-links a.active {
+    text-decoration: underline; /* underline active link */
+    font-weight: bold; /* bold active link */
+  }
