@@ -23,13 +23,9 @@ body {
   font-size: 24px;
 }
 
-.body {
-  font-family: Inter-Light;
-}
-
-.link {
-  text-decoration: none; /* no text decoration */
-
+.bold-text {
+  font-family: Inter-Bold;
+  display: inline;
 }
 
 /* Add a fade in when the website first loads */

@@ -1,15 +1,16 @@
 import React from 'react';
 import './About.css';
 
+const bold = 'Currently, I\'m building the future of display advertising at Amazon.';
+
 const About = () => {
     return (
         <div className="About">
-            <div className='header'>Hey there, I'm Tariq!</div>
-            <div className='body'>I'm a software engineer who loves to make cool stuff. I'm currently working on building the future of display advertising at Amazon.</div>
-            <div className='body'>My story with tech started when I learned my computer wasn’t powerful enough to run video games. When I brought this fact to my Dad (who’s in IT), he taught me about computer hardware, how to build a PC, how to troubleshoot, what software even is… from this point on I was hooked. I began watching the latest consumer tech releases, learning how to build my own apps, and the rest is history.</div>
-            <div className='body'>These days, you can find me at Amazon building features to help advertisers maximize their advertising campaigns. I work closely with applied scientists, leveraging their recommendation models to surface this data in a few places. If you’re curious, you can learn more about it here.</div>
-            <div className='body'>I've had the privledge of working at a few different companies, mainly in software engineering roles.</div>
-            <div className='body'>When I’m not working, I’m probably chilling with my cat, listening to music, or going on a nice drive. I’m a big believer in collaboration and creativity - when everyone is on the same page and pushing towards a common goal, that’s when the best work happens. </div>
+            <div className='header'>Hey there, I'm Tariq 👋</div>
+            <div className='section'>I'm a software engineer who loves to make cool stuff, currently working at <div className='bold-text'>Amazon</div> in <div className='bold-text'>Toronto</div>.</div>
+            <div className='section'>My tech journey began when my computer couldn’t handle the games I wanted to play, so my dad (who's in IT) showed me how to build and troubleshoot PCs. Fast forward to today, and I'm enamoured with tech. Programming is modern day wizardry; developers can create value for people out of thin air.</div>
+            <div className='section'>These days you can find me working on <a link='https://www.google.ca'>Sponsored Display</a>, building features to help advertisers maximize their advertising campaigns. I've had the privilege of working at a few different companies - If you’re curious, you can learn more about it <a>here.</a></div>
+            <div className='section'>When I’m not at my computer, I’m probably chilling with my cat or listening to music. If you'd like to chat, feel free to contact me via email or LinkedIn :)</div>
         </div>
     );
 }; 
