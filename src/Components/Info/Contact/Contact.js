@@ -9,17 +9,20 @@ import tariq from '../../../Assets/Image/tariq.png'
 
 const location = 'Toronto, Canada';
 const email = 'tariqsyed.dev@gmail.com';
-const linkedin = '';
-const github = '';
-const resume = '';
+const linkedin = 'https://www.linkedin.com/in/tariqs1/';
+const github = 'https://github.com/tariqsyed1';
+const resume = 'https:/google.ca';
 
 const Contact = () => {
     return (
         <div className="Contact">
-            <img src={tariq} alt='' style={{'width': '20%'}}/>
-            <div className='header'>yoitsbtandz</div>
-            <div className='body'>software enginee test</div>
-            <p id="Subheading">📍 Toronto, Canada | ✉️ <a href="mailto:hello@tariqsyed.dev">hello@tariqsyed.dev</a></p>
+            <img src={tariq} alt='' style={{'width': '50%'}}/>
+            <div className='header'>tariq syed</div>
+            <div className='subheading'>software engineer</div>
+            <div className='body'><a href="mailto:hello@tariqsyed.dev">hello@tariqsyed.dev</a></div>
+
+
+
             <div id="Icons">
                 <a href="https://www.github.com/tariqsyed1/" target="_blank" rel="noreferrer" className="social"><GitHubIcon /></a>
                 <a href="https://www.linkedin.com/in/tariqs1" target="_blank" rel="noreferrer" className="social"><LinkedInIcon /></a>
