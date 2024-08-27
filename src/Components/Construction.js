@@ -4,7 +4,8 @@ export default function Construction() {
 
     return (
         <div>
-          <p style={{'fontSize': '36px'}}>🚧 under construction</p>
+          <p style={{'fontSize': '36px'}}>🚧 under construction 🚧</p>
+          <div>check back soon!</div>
         </div>
       );
 }

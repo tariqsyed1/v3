@@ -1,3 +1,7 @@
 .About {
     text-align: left;
 }
+
+.About div {
+    margin-bottom: 2.5%;
+}

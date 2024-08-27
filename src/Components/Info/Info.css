@@ -1,15 +1,17 @@
 .info {
-    display: flex; /* flexbox layout */
-    flex-direction: row; /* horizontal layout */
-  }
-  
-  .info-left {
-    width: 33%; /* take up 50% of the container width */
-    padding: 10%; /* add some padding for spacing */
-    align-items: right;
-  }
-  
-  .info-right {
-    width: 66%; /* take up 50% of the container width */
-    padding: 10%; /* add some padding for spacing */
-  }
+  display: flex; /* flexbox layout */
+  flex-direction: row; /* horizontal layout */
+  justify-content: center;
+  align-items: center;
+}
+
+.info-left {
+  width: 33%; /* take up 50% of the container width */
+  padding: 10%; /* add some padding for spacing */
+  align-items: right;
+}
+
+.info-right {
+  width: 66%; /* take up 50% of the container width */
+  padding: 10%; /* add some padding for spacing */
+}
