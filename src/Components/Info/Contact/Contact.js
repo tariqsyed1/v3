@@ -6,8 +6,8 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import DescriptionIcon from '@mui/icons-material/Description';
 import tariq from '../../../Assets/Image/tariq.png'
+import EmailCopyPaste from './EmailCopyPaste';
 
-const email = 'tariqsyed.dev@gmail.com';
 const linkedin = 'https://www.linkedin.com/in/tariqs1/';
 const github = 'https://github.com/tariqsyed1';
 const resume = 'https://drive.google.com/file/d/1JXc-GRUl2I_syoygNSNc8Kx2RO11l1sO/view?usp=sharing';
@@ -18,7 +18,7 @@ const Contact = () => {
             <div className='picture'><img src={tariq} alt='' style={{'width': '85%'}}/></div>
             <div className='header'>Tariq Syed</div>
             <div className='subheading'>Software Engineer</div>
-            <div><a href=''>{email}</a></div>
+            <div><EmailCopyPaste/></div>
             <div className="links">
                 <a href={github} target="_blank" rel="noreferrer" className="social"><GitHubIcon /></a>
                 <a href={linkedin} target="_blank" rel="noreferrer" className="social"><LinkedInIcon /></a>
