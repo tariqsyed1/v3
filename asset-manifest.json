@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.aebe40d4.css",
-    "main.js": "/static/js/main.3f3d3985.js",
+    "main.css": "/static/css/main.0e6ea769.css",
+    "main.js": "/static/js/main.968e56ce.js",
     "static/media/Inter-Bold.woff": "/static/media/Inter-Bold.93c1301bd9f486c573b3.woff",
     "static/media/Inter-SemiBold.woff": "/static/media/Inter-SemiBold.cca62d21c8c555c392e5.woff",
     "static/media/Inter-ExtraBold.woff": "/static/media/Inter-ExtraBold.d0fa3bb2b7c9063dc594.woff",
@@ -18,15 +18,16 @@
     "static/media/Inter-Light.woff2": "/static/media/Inter-Light.2d5198822ab091ce4305.woff2",
     "static/media/Inter-ExtraLight.woff2": "/static/media/Inter-ExtraLight.72505e6a122c6acd5471.woff2",
     "static/media/Inter-Black.woff2": "/static/media/Inter-Black.15ca31c0a2a68f76d2d1.woff2",
+    "static/media/tariq.png": "/static/media/tariq.e523ef092cd00f05499c.png",
     "static/media/Inter-Thin.woff2": "/static/media/Inter-Thin.fff2a096db014f6239d4.woff2",
     "static/media/Inter-Regular.woff2": "/static/media/Inter-Regular.c8ba52b05a9ef10f4758.woff2",
     "static/media/logo.svg": "/static/media/logo.394a77c794c74b0883169c4316e1f8c1.svg",
     "index.html": "/index.html",
-    "main.aebe40d4.css.map": "/static/css/main.aebe40d4.css.map",
-    "main.3f3d3985.js.map": "/static/js/main.3f3d3985.js.map"
+    "main.0e6ea769.css.map": "/static/css/main.0e6ea769.css.map",
+    "main.968e56ce.js.map": "/static/js/main.968e56ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.aebe40d4.css",
-    "static/js/main.3f3d3985.js"
+    "static/css/main.0e6ea769.css",
+    "static/js/main.968e56ce.js"
   ]
 }
