@@ -1,10 +1,12 @@
 import Logo from '../Assets/logo.svg';
 
+import './Construction.css';
+
 export default function Construction() {
 
     return (
         <div>
-          <p style={{'fontSize': '36px'}}>🚧 under construction 🚧</p>
+          <p className='Construction'>🚧 under construction 🚧</p>
           <div>check back soon!</div>
         </div>
       );
