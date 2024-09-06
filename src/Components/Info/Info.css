@@ -15,12 +15,15 @@
   width: 33%; /* take up 50% of the container width */
   margin: 10%; /* add some padding for spacing */
   margin-right: 0%;
+
 }
 
 .info-right {
   width: 66%; /* take up 50% of the container width */
   height: 100%;
+  padding-top: 5%;
   margin-left: 10%; /* add some padding for spacing */
+
 }
 
 @media (max-width: 768px) {
