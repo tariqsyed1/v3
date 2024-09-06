@@ -15,7 +15,7 @@ const resume = 'https://drive.google.com/file/d/1JXc-GRUl2I_syoygNSNc8Kx2RO11l1s
 const Contact = () => {
     return (
         <div className="contact">
-            <div className='picture'><img src={tariq} alt='' style={{'width': '85%'}}/></div>
+            <div className='picture'><img src={tariq} alt=''/></div>
             <div className='header'>Tariq Syed</div>
             <div className='subheading'>Software Engineer</div>
             <div><EmailCopyPaste/></div>
@@ -24,7 +24,6 @@ const Contact = () => {
                 <a href={linkedin} target="_blank" rel="noreferrer" className="social"><LinkedInIcon /></a>
                 <a href={resume} target="_blank" rel="noreferrer" className="social"><DescriptionIcon /></a>
             </div>
-
         </div>
     );
 }; 

@@ -28,3 +28,10 @@
   font-family: Inter-SemiBold; /* bold active link */
   border-bottom: 2px solid #FCFBFC;
 }
+
+@media (max-width: 768px) {
+  .navbar {
+    position: absolute;
+    width: 75%;
+  }
+}
