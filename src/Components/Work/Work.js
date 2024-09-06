@@ -1,6 +1,5 @@
 import React from 'react';
 import Construction from '../Construction';
-import Job from './Job'
 
 
 const Work = () => {

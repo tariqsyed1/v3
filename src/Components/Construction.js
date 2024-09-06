@@ -1,5 +1,3 @@
-import Logo from '../Assets/logo.svg';
-
 import './Construction.css';
 
 export default function Construction() {
