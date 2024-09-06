@@ -7,7 +7,7 @@
   flex-direction: row; /* horizontal layout */
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 60vh;
   width: 75%;
 }
 
@@ -19,7 +19,8 @@
 
 .info-right {
   width: 66%; /* take up 50% of the container width */
-  margin: 10%; /* add some padding for spacing */
+  height: 100%;
+  margin-left: 10%; /* add some padding for spacing */
 }
 
 @media (max-width: 768px) {

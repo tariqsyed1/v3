@@ -1,5 +1,5 @@
 .navbar {
-  position: fixed;
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   top: 30px; /* add 20px of space between top of page and navbar */
